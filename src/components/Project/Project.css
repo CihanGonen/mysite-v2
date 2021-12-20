@@ -1,0 +1,31 @@
+.project {
+  margin-top: 2rem;
+  width: 48%;
+}
+.project-img-wrapper {
+  display: flex;
+  justify-content: center;
+}
+.project-img-wrapper img {
+  width: 60%;
+  border: 1px solid #1df7dd;
+  transition: 0.3s ease-in;
+}
+.project-desc {
+  margin-top: 0.2rem;
+  display: flex;
+  justify-content: center;
+}
+.project-desc p {
+  margin-top: 1rem;
+  display: inline-block;
+}
+
+@media only screen and (max-width: 600px) {
+  .project {
+    width: 96%;
+  }
+  .project-img-wrapper img {
+    width: 80%;
+  }
+}

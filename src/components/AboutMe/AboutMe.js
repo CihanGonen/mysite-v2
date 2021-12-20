@@ -3,15 +3,13 @@ import MyPic from "../../assets/me.jpg";
 
 export default function AboutMe() {
   return (
-    <div>
+    <div className="about-me-wrapper">
       <div className="about-me-heading">
         <h1>About Me</h1>
       </div>
       <div className="about-me">
         <div className="img-side">
-          <div className="img-wrapper">
-            <img src={MyPic} alt="Cihan Gönen" />
-          </div>
+          <img src={MyPic} alt="Cihan Gönen" />
         </div>
         <div className="text-side">
           <p>

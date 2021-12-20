@@ -1,7 +1,28 @@
 .tech-stack-wrapper {
-  padding-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-top: 1px solid #1df7dd;
+  padding: 3rem 0;
 }
 .tech-stack-heading {
   color: #dd1df7;
   text-align: center;
+}
+.tech-stack-heading h4 {
+  color: #f7df1e;
+}
+.tech-stack-logos {
+  display: flex;
+  margin-top: 2rem;
+  flex-wrap: wrap;
+  gap: 4rem;
+  font-size: 4rem;
+  color: white;
+}
+
+@media only screen and (max-width: 600px) {
+  .tech-stack-logos {
+    gap: 2rem;
+  }
 }
