@@ -20,6 +20,9 @@
   font-size: 4rem;
   color: white;
 }
+.tech-stack-logos i {
+  cursor: pointer;
+}
 
 @media only screen and (max-width: 600px) {
   .tech-stack-logos {

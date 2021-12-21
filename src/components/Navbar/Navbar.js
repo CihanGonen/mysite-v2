@@ -1,4 +1,7 @@
 import "./Navbar.css";
+
+import { Link } from "react-router-dom";
+
 export default function Navbar() {
   return (
     <div className="navbar">
@@ -6,8 +9,9 @@ export default function Navbar() {
         <h2>Cihan Gönen</h2>
       </div>
       <div className="navbar-right">
-        <h4>Contact</h4>
-        <h4>Get my CV</h4>
+        <Link to="/cv" target="_blank">
+          <h4>Get my CV</h4>
+        </Link>
         <h4>/</h4>
         <h4>Articles</h4>
       </div>

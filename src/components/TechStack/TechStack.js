@@ -1,6 +1,18 @@
 import "./TechStack.css";
 
-export default function TechStack() {
+export default function TechStack({ selectedTechs, setSelectedTechs }) {
+  const techChoosingAction = (str) => {
+    if (selectedTechs.includes(str)) {
+      setSelectedTechs((prevSelectedTechs) => {
+        return prevSelectedTechs.filter((tech) => tech !== str);
+      });
+    } else {
+      setSelectedTechs((prevSelectedTechs) => {
+        return [...prevSelectedTechs, str];
+      });
+    }
+  };
+
   return (
     <div className="tech-stack-wrapper">
       <div className="tech-stack-heading">
@@ -8,16 +20,77 @@ export default function TechStack() {
         <h4>Toggle technologies to see related projects</h4>
       </div>
       <div className="tech-stack-logos">
-        <i class="devicon-javascript-plain"></i>
-        <i class="devicon-html5-plain"></i>
-        <i class="devicon-css3-plain"></i>
-        <i class="devicon-react-original"></i>
-        <i class="devicon-nodejs-plain"></i>
-        <i class="devicon-postgresql-plain"></i>
-        <i class="devicon-mongodb-plain"></i>
-        <i class="devicon-tailwindcss-plain"></i>
-        <i class="devicon-sass-original"></i>
-        <i class="devicon-firebase-plain"></i>
+        <i
+          style={
+            selectedTechs.includes("javascript")
+              ? {}
+              : { filter: "invert(0.4)" }
+          }
+          onClick={() => techChoosingAction("javascript")}
+          class="devicon-javascript-plain"
+        ></i>
+
+        <i
+          style={
+            selectedTechs.includes("html") ? {} : { filter: "invert(0.4)" }
+          }
+          onClick={() => techChoosingAction("html")}
+          class="devicon-html5-plain"
+        ></i>
+        <i
+          style={selectedTechs.includes("css") ? {} : { filter: "invert(0.4)" }}
+          onClick={() => techChoosingAction("css")}
+          class="devicon-css3-plain"
+        ></i>
+        <i
+          style={
+            selectedTechs.includes("react") ? {} : { filter: "invert(0.4)" }
+          }
+          onClick={() => techChoosingAction("react")}
+          class="devicon-react-original"
+        ></i>
+        <i
+          style={
+            selectedTechs.includes("node") ? {} : { filter: "invert(0.4)" }
+          }
+          onClick={() => techChoosingAction("node")}
+          class="devicon-nodejs-plain"
+        ></i>
+        <i
+          style={
+            selectedTechs.includes("postgres") ? {} : { filter: "invert(0.4)" }
+          }
+          onClick={() => techChoosingAction("postgres")}
+          class="devicon-postgresql-plain"
+        ></i>
+        <i
+          style={
+            selectedTechs.includes("mongodb") ? {} : { filter: "invert(0.4)" }
+          }
+          onClick={() => techChoosingAction("mongodb")}
+          class="devicon-mongodb-plain"
+        ></i>
+        <i
+          style={
+            selectedTechs.includes("tailwind") ? {} : { filter: "invert(0.4)" }
+          }
+          onClick={() => techChoosingAction("tailwind")}
+          class="devicon-tailwindcss-plain"
+        ></i>
+        <i
+          style={
+            selectedTechs.includes("sass") ? {} : { filter: "invert(0.4)" }
+          }
+          onClick={() => techChoosingAction("sass")}
+          class="devicon-sass-original"
+        ></i>
+        <i
+          style={
+            selectedTechs.includes("firebase") ? {} : { filter: "invert(0.4)" }
+          }
+          onClick={() => techChoosingAction("firebase")}
+          class="devicon-firebase-plain"
+        ></i>
       </div>
     </div>
   );

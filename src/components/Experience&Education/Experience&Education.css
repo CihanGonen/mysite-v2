@@ -1,0 +1,69 @@
+.experience-education-wrapper {
+  border-top: 1px solid #1df7dd;
+  padding: 3rem 0 2rem 0;
+  display: flex;
+}
+.experience-wrapper {
+  width: 50%;
+}
+.education-wrapper {
+  width: 50%;
+  border-left: 1px solid #1df7dd;
+}
+.experience-education-heading {
+  padding-top: 2rem;
+  color: #dd1df7;
+  text-align: center;
+}
+.experience-details {
+  padding: 2rem 0 0 3rem;
+  margin-right: 1rem;
+}
+.experience-heading {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.experience-headings {
+  display: flex;
+  align-items: center;
+}
+.experience-img img {
+  width: 75px;
+  height: 75px;
+  border: 1px solid #1df7dd;
+  vertical-align: bottom;
+}
+.title {
+  color: white;
+}
+.experience-text {
+  padding-top: 1rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .experience-education-wrapper {
+    padding: 0;
+    flex-direction: column;
+  }
+  .experience-wrapper {
+    width: 100%;
+  }
+  .education-wrapper {
+    width: 100%;
+    border: none;
+    border-top: 1px solid #1df7dd;
+  }
+  .experience-details {
+    padding: 0;
+    margin: 2rem 0;
+  }
+  .experience-heading {
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+  }
+  .experience-headings {
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,37 @@
+.contact-wrapper {
+  border-top: 1px solid #1df7dd;
+  padding: 3rem 0;
+}
+.contact-heading {
+  color: #dd1df7;
+  text-align: center;
+}
+.contact-infos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  flex-wrap: wrap;
+  gap: 4rem;
+  font-size: 4rem;
+  color: white;
+}
+.line {
+  height: 2px;
+  width: 30%;
+  background-color: #1df7dd;
+}
+
+@media only screen and (max-width: 600px) {
+  .contact-infos {
+    margin-top: 1rem;
+    gap: 2rem;
+    font-size: 3rem;
+    color: white;
+  }
+  .line {
+    height: 2px;
+    width: 20%;
+    background-color: #1df7dd;
+  }
+}
