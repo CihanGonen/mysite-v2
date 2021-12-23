@@ -19,7 +19,7 @@ const TECH_ARR = [
 
 export default function ProjectDetail() {
   const { id } = useParams();
-  const project = PROJECTS.filter((project) => project.id == Number(id))[0];
+  const project = PROJECTS.filter((project) => project.id === Number(id))[0];
   console.log(project);
   return (
     <div className="detail-wrapper">
