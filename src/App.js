@@ -10,8 +10,6 @@ import Experience from "./components/Experience&Education/Experience&Education";
 import Contact from "./components/Contact/Contact";
 import ProjectDetail from "./components/ProjectDetail/ProjectDetail";
 
-import CV from "./assets/cihangonen-cv.pdf";
-
 function App() {
   const [selectedTechs, setSelectedTechs] = useState([
     "javascript",
