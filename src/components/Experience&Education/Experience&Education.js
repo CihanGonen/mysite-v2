@@ -46,7 +46,7 @@ export default function Experience() {
             <div className="experience-headings-title">
               <div className="experience-headings">
                 <h2 className="experience-company">Havelsan / </h2>
-                <h3 className="experience-company">Jul 2021 - Aug 2020 </h3>
+                <h3 className="experience-company">Jul 2020 - Aug 2020 </h3>
               </div>
               <h3 className="title">Software Developer Internship</h3>
             </div>

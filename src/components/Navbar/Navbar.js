@@ -12,7 +12,7 @@ export default function Navbar() {
         <Link to="/cv" target="_blank">
           <h4>Get my CV</h4>
         </Link>
-        <h4>/</h4>
+        <h4 style={{ color: "#1df7dd" }}>/</h4>
         <h4>Articles</h4>
       </div>
     </div>

@@ -1,0 +1,29 @@
+.detail-wrapper {
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.detail-img-wrapper {
+  width: 45%;
+}
+.detail-img-wrapper img {
+  width: 100%;
+}
+.detail-right-side {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.detail-right-side h2 {
+  color: white;
+}
+.detail-icons {
+  color: white;
+  display: flex;
+  font-size: 40px;
+  gap: 1rem;
+}

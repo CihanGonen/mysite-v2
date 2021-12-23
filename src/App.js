@@ -8,6 +8,7 @@ import Projects from "./components/Projects/Projects";
 import TechStack from "./components/TechStack/TechStack";
 import Experience from "./components/Experience&Education/Experience&Education";
 import Contact from "./components/Contact/Contact";
+import ProjectDetail from "./components/ProjectDetail/ProjectDetail";
 
 import CV from "./assets/cihangonen-cv.pdf";
 
@@ -57,6 +58,7 @@ function App() {
             ></iframe>
           }
         />
+        <Route path="/projects/:id" element={<ProjectDetail />} />
       </Routes>
     </BrowserRouter>
   );

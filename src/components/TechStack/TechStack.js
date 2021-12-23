@@ -54,42 +54,42 @@ export default function TechStack({ selectedTechs, setSelectedTechs }) {
             selectedTechs.includes("node") ? {} : { filter: "invert(0.4)" }
           }
           onClick={() => techChoosingAction("node")}
-          class="devicon-nodejs-plain"
+          className="devicon-nodejs-plain"
         ></i>
         <i
           style={
             selectedTechs.includes("postgres") ? {} : { filter: "invert(0.4)" }
           }
           onClick={() => techChoosingAction("postgres")}
-          class="devicon-postgresql-plain"
+          className="devicon-postgresql-plain"
         ></i>
         <i
           style={
             selectedTechs.includes("mongodb") ? {} : { filter: "invert(0.4)" }
           }
           onClick={() => techChoosingAction("mongodb")}
-          class="devicon-mongodb-plain"
+          className="devicon-mongodb-plain"
         ></i>
         <i
           style={
             selectedTechs.includes("tailwind") ? {} : { filter: "invert(0.4)" }
           }
           onClick={() => techChoosingAction("tailwind")}
-          class="devicon-tailwindcss-plain"
+          className="devicon-tailwindcss-plain"
         ></i>
         <i
           style={
             selectedTechs.includes("sass") ? {} : { filter: "invert(0.4)" }
           }
           onClick={() => techChoosingAction("sass")}
-          class="devicon-sass-original"
+          className="devicon-sass-original"
         ></i>
         <i
           style={
             selectedTechs.includes("firebase") ? {} : { filter: "invert(0.4)" }
           }
           onClick={() => techChoosingAction("firebase")}
-          class="devicon-firebase-plain"
+          className="devicon-firebase-plain"
         ></i>
       </div>
     </div>
