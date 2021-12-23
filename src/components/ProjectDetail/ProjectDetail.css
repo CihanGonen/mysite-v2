@@ -18,6 +18,11 @@
   flex-direction: column;
   gap: 2rem;
 }
+.detail-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 .detail-right-side h2 {
   color: white;
 }
@@ -26,4 +31,22 @@
   display: flex;
   font-size: 40px;
   gap: 1rem;
+}
+@media only screen and (max-width: 600px) {
+  .detail-wrapper {
+    padding: 2rem 0;
+    height: 100%;
+    flex-direction: column;
+    overflow: auto;
+    justify-content: center;
+  }
+  .detail-img-wrapper {
+    width: 90%;
+  }
+  .detail-right-side {
+    width: 90%;
+  }
+  .detail-icons {
+    justify-content: center;
+  }
 }

@@ -46,18 +46,6 @@ function App() {
             </div>
           }
         />
-        <Route
-          path="/cv"
-          element={
-            <iframe
-              id="pdf-js-viewer"
-              src={`web/viewer.html?file=${CV}`}
-              title="webviewer"
-              width="100%"
-              height="100vw"
-            ></iframe>
-          }
-        />
         <Route path="/projects/:id" element={<ProjectDetail />} />
       </Routes>
     </BrowserRouter>

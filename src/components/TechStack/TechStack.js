@@ -24,69 +24,69 @@ export default function TechStack({ selectedTechs, setSelectedTechs }) {
           style={
             selectedTechs.includes("javascript")
               ? {}
-              : { filter: "invert(0.4)" }
+              : { filter: "invert(0.7)" }
           }
           onClick={() => techChoosingAction("javascript")}
-          class="devicon-javascript-plain"
+          className="devicon-javascript-plain"
         ></i>
 
         <i
           style={
-            selectedTechs.includes("html") ? {} : { filter: "invert(0.4)" }
+            selectedTechs.includes("html") ? {} : { filter: "invert(0.7)" }
           }
           onClick={() => techChoosingAction("html")}
-          class="devicon-html5-plain"
+          className="devicon-html5-plain"
         ></i>
         <i
-          style={selectedTechs.includes("css") ? {} : { filter: "invert(0.4)" }}
+          style={selectedTechs.includes("css") ? {} : { filter: "invert(0.7)" }}
           onClick={() => techChoosingAction("css")}
-          class="devicon-css3-plain"
+          className="devicon-css3-plain"
         ></i>
         <i
           style={
-            selectedTechs.includes("react") ? {} : { filter: "invert(0.4)" }
+            selectedTechs.includes("react") ? {} : { filter: "invert(0.7)" }
           }
           onClick={() => techChoosingAction("react")}
-          class="devicon-react-original"
+          className="devicon-react-original"
         ></i>
         <i
           style={
-            selectedTechs.includes("node") ? {} : { filter: "invert(0.4)" }
+            selectedTechs.includes("node") ? {} : { filter: "invert(0.7)" }
           }
           onClick={() => techChoosingAction("node")}
           className="devicon-nodejs-plain"
         ></i>
         <i
           style={
-            selectedTechs.includes("postgres") ? {} : { filter: "invert(0.4)" }
+            selectedTechs.includes("postgres") ? {} : { filter: "invert(0.7)" }
           }
           onClick={() => techChoosingAction("postgres")}
           className="devicon-postgresql-plain"
         ></i>
         <i
           style={
-            selectedTechs.includes("mongodb") ? {} : { filter: "invert(0.4)" }
+            selectedTechs.includes("mongodb") ? {} : { filter: "invert(0.7)" }
           }
           onClick={() => techChoosingAction("mongodb")}
           className="devicon-mongodb-plain"
         ></i>
         <i
           style={
-            selectedTechs.includes("tailwind") ? {} : { filter: "invert(0.4)" }
+            selectedTechs.includes("tailwind") ? {} : { filter: "invert(0.7)" }
           }
           onClick={() => techChoosingAction("tailwind")}
           className="devicon-tailwindcss-plain"
         ></i>
         <i
           style={
-            selectedTechs.includes("sass") ? {} : { filter: "invert(0.4)" }
+            selectedTechs.includes("sass") ? {} : { filter: "invert(0.7)" }
           }
           onClick={() => techChoosingAction("sass")}
           className="devicon-sass-original"
         ></i>
         <i
           style={
-            selectedTechs.includes("firebase") ? {} : { filter: "invert(0.4)" }
+            selectedTechs.includes("firebase") ? {} : { filter: "invert(0.7)" }
           }
           onClick={() => techChoosingAction("firebase")}
           className="devicon-firebase-plain"

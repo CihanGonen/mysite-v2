@@ -8,7 +8,7 @@
 .about-me {
   display: grid;
   gap: 2rem;
-  padding: 0 4rem;
+  padding: 0 2rem;
   margin-top: 1rem;
   grid-template-columns: 1fr 5fr;
 }
@@ -26,7 +26,7 @@
   vertical-align: bottom;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
   .about-me-wrapper {
     padding: 1rem 0;
   }
@@ -39,5 +39,20 @@
   .img-side {
     width: 50%;
     align-self: center;
+  }
+}
+
+@media only screen and (min-width: 801px) and (max-width: 1200px) {
+  .about-me-wrapper {
+    padding: 1rem 0;
+  }
+  .about-me {
+    display: block;
+  }
+  .img-side {
+    width: 25%;
+    align-self: center;
+    margin-right: 1rem;
+    float: left;
   }
 }

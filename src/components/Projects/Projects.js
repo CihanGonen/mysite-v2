@@ -20,7 +20,7 @@ export default function Projects({ selectedTechs }) {
             ? true
             : false
         ).map((project) => (
-          <Project project={project} />
+          <Project key={project.id} project={project} />
         ))}
       </div>
     </div>

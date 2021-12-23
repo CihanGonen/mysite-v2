@@ -9,9 +9,13 @@ export default function Navbar() {
         <h2>Cihan Gönen</h2>
       </div>
       <div className="navbar-right">
-        <Link to="/cv" target="_blank">
+        <a
+          href="https://cihangonen.github.io/myCV/"
+          target="_blank"
+          rel="noreferrer"
+        >
           <h4>Get my CV</h4>
-        </Link>
+        </a>
         <h4 style={{ color: "#1df7dd" }}>/</h4>
         <h4>Articles</h4>
       </div>

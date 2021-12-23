@@ -12,7 +12,7 @@ export default function Contact() {
           rel="noreferrer"
           style={{ color: "white" }}
         >
-          <i class="devicon-linkedin-plain"></i>
+          <i className="devicon-linkedin-plain"></i>
         </a>
         <a
           href=" https://github.com/CihanGonen"
@@ -20,7 +20,7 @@ export default function Contact() {
           rel="noreferrer"
           style={{ color: "white" }}
         >
-          <i class="devicon-github-original"></i>
+          <i className="devicon-github-original"></i>
         </a>
         <div className="line"> </div>
       </div>
