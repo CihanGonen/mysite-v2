@@ -23,8 +23,12 @@
   .navbar-left {
     padding-left: 0.5rem;
   }
+  .navbar-left h2 {
+    font-size: 15px;
+  }
   .navbar-right {
     padding-right: 0.5rem;
     gap: 0.5rem;
+    font-size: 15px;
   }
 }

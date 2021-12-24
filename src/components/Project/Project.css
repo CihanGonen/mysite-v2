@@ -2,15 +2,17 @@
   margin-top: 2rem;
   width: 48%;
 }
+.project a {
+  width: 60%;
+  margin: 0 auto;
+  display: block;
+}
 .project-img-wrapper {
   display: flex;
   justify-content: center;
 }
-.project-img-wrapper a {
-  width: 60%;
-}
 .project-img-wrapper img {
-  width: 60%;
+  width: 100%;
   border: 1px solid #1df7dd;
   transition: 0.3s ease-in;
 }
@@ -28,7 +30,8 @@
   .project {
     width: 96%;
   }
-  .project-img-wrapper img {
-    width: 80%;
+  .project a {
+    width: 90%;
+    margin-top: 1rem;
   }
 }

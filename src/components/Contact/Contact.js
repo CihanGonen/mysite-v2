@@ -24,7 +24,7 @@ export default function Contact() {
         </a>
         <div className="line"> </div>
       </div>
-      <p style={{ marginTop: "1rem", textAlign: "center" }}>
+      <p className="contact-email">
         You can also email me on{" "}
         <span style={{ color: "white" }}>cihangonen4k@gmail.com</span>
       </p>

@@ -9,6 +9,7 @@ import TechStack from "./components/TechStack/TechStack";
 import Experience from "./components/Experience&Education/Experience&Education";
 import Contact from "./components/Contact/Contact";
 import ProjectDetail from "./components/ProjectDetail/ProjectDetail";
+import Articles from "./components/Articles/Articles";
 
 function App() {
   const [selectedTechs, setSelectedTechs] = useState([
@@ -45,6 +46,7 @@ function App() {
           }
         />
         <Route path="/projects/:id" element={<ProjectDetail />} />
+        <Route path="/articles" element={<Articles />} />
       </Routes>
     </BrowserRouter>
   );

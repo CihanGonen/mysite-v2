@@ -21,6 +21,10 @@
   width: 30%;
   background-color: #1df7dd;
 }
+.contact-email {
+  margin-top: 1rem;
+  text-align: center;
+}
 
 @media only screen and (max-width: 600px) {
   .contact-infos {
@@ -31,7 +35,10 @@
   }
   .line {
     height: 2px;
-    width: 20%;
+    width: 10%;
     background-color: #1df7dd;
+  }
+  .contact-email {
+    font-size: 14px;
   }
 }

@@ -1,4 +1,5 @@
 import "./Navbar.css";
+import { Link } from "react-router-dom";
 
 export default function Navbar() {
   return (
@@ -15,7 +16,9 @@ export default function Navbar() {
           <h4>Get my CV</h4>
         </a>
         <h4 style={{ color: "#1df7dd" }}>/</h4>
-        <h4>Articles</h4>
+        <Link to="/articles">
+          <h4>Articles</h4>
+        </Link>
       </div>
     </div>
   );

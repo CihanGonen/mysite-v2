@@ -40,7 +40,7 @@ const PROJECTS = [
         <span className="keyword"> useContext </span> hook effectively to
         storing user data for authorization processess.
         <span className="keyword"> I also created many hooks </span>in order to
-        stop repeating writing the same code and I treid to keep everything DRY.
+        stop repeating writing the same code and I tried to keep everything DRY.
       </p>
     ),
     techs: ["html", "css", "react", "javascript", "firebase", "node"],
