@@ -26,6 +26,8 @@
 
 @media only screen and (max-width: 600px) {
   .tech-stack-logos {
+    justify-content: center;
     gap: 2rem;
+    font-size: 3rem;
   }
 }

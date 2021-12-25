@@ -25,16 +25,17 @@ export default function Experience() {
 
           <div className="experience-text">
             <p>
-              I started learning web development a year ago. From then i made so
-              many designs real using html, css and javascript. I just love
-              putting every element of the page together like decorating a
-              balcony I started learning web development a year ago. From then i
-              made so many designs real using html, css and javascript. I just
-              love putting every element of the page together like decorating a
-              balcony I started learning web development a year ago. From then i
-              made so many designs real using html, css and javascript. I just
-              love putting every element of the page together like decorating a
-              balcony
+              Worked with designers and I made their designs alive using
+              <span className="keyword"> html </span>and
+              <span className="keyword"> css</span>. This way
+              <span className="keyword">
+                {" "}
+                I learned to turn design files to working web pages{" "}
+              </span>
+              . In this job I mostly worked on the projects with a senior web
+              developer and learned many things from him like
+              <span className="keyword"> communicating with apis </span>and
+              <span className="keyword"> client-server communication </span>.
             </p>
           </div>
         </div>
@@ -55,16 +56,16 @@ export default function Experience() {
 
           <div className="experience-text">
             <p>
-              I started learning web development a year ago. From then i made so
-              many designs real using html, css and javascript. I just love
-              putting every element of the page together like decorating a
-              balcony I started learning web development a year ago. From then i
-              made so many designs real using html, css and javascript. I just
-              love putting every element of the page together like decorating a
-              balcony I started learning web development a year ago. From then i
-              made so many designs real using html, css and javascript. I just
-              love putting every element of the page together like decorating a
-              balcony
+              Got the chance to do an internship in the Havelsan which is one of
+              the best Turkish software and systems company having business
+              presence in the defence and IT sectors. In this experience I
+              worked in the client side and used
+              <span className="keyword"> SAPUI5 </span>to help team
+              <span className="keyword">
+                {" "}
+                to create cross-platform web applications
+              </span>
+              .
             </p>
           </div>
         </div>
@@ -89,17 +90,23 @@ export default function Experience() {
 
           <div className="experience-text">
             <p>
-              I started learning web development a year ago. From then i made so
-              many designs real using html, css and javascript. I just love
-              putting every element of the page together like decorating a
-              balcony I started learning web development a year ago. From then i
-              made so many designs real using html, css and javascript. I just
-              love putting every element of the page together like decorating a
-              balcony I started learning web development a year ago. From then i
-              made so many designs real using html, css and javascript. I just
-              love putting every element of the page together like decorating a
-              balcony
+              Learned<span className="keyword"> algorithmic </span>thinking and
+              solved many problems using
+              <span className="keyword"> Java </span>and
+              <span className="keyword"> C#</span>. I also learned to create
+              projects using<span className="keyword"> agile </span>and
+              <span className="keyword"> scrum </span>methodologies. We usually
+              created projects as a team so
+              <span className="keyword">
+                {" "}
+                I learned to be a team member and to communicate{" "}
+              </span>
+              with each other to meet the deadlines.
             </p>
+            <br />
+            <ul style={{ paddingLeft: "1.5rem" }}>
+              <li>GPA ( 3.48 / 4 )</li>
+            </ul>
           </div>
         </div>
       </div>

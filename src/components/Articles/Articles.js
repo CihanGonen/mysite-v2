@@ -19,6 +19,9 @@ export default function Articles() {
             setSelectedArticle("lexical-env");
             setHeader("Lexical Environment and Execution Context");
           }}
+          style={{
+            color: selectedArticle === "lexical-env" ? "white" : "#f7df1e",
+          }}
         >
           Lexical Environment and Execution Context
         </p>
@@ -27,6 +30,9 @@ export default function Articles() {
           onClick={() => {
             setSelectedArticle("hoisting");
             setHeader("Hoisting");
+          }}
+          style={{
+            color: selectedArticle === "hoisting" ? "white" : "#f7df1e",
           }}
         >
           Hoisting
