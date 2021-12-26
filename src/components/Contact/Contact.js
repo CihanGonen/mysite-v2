@@ -26,7 +26,11 @@ export default function Contact() {
       </div>
       <p className="contact-email">
         You can also email me on{" "}
-        <span style={{ color: "white" }}>cihangonen4k@gmail.com</span>
+        <span>
+          <a style={{ color: "white" }} href="mailto:cihangonen4k@gmail.com">
+            cihangonen4k@gmail.com
+          </a>
+        </span>
       </p>
     </div>
   );

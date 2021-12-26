@@ -58,9 +58,9 @@ export default function TechStack({ selectedTechs, setSelectedTechs }) {
         ></i>
         <i
           style={
-            selectedTechs.includes("postgres") ? {} : { filter: "invert(0.7)" }
+            selectedTechs.includes("psql") ? {} : { filter: "invert(0.7)" }
           }
-          onClick={() => techChoosingAction("postgres")}
+          onClick={() => techChoosingAction("psql")}
           className="devicon-postgresql-plain"
         ></i>
         <i
