@@ -18,7 +18,7 @@ function App() {
     "css",
     "react",
     "node",
-    "postgres",
+    "psql",
     "mongodb",
     "tailwind",
     "sass",
