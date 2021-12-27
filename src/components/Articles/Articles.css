@@ -1,6 +1,7 @@
 .articles-wrapper {
   border-top: 1px solid #1df7dd;
   padding: 3rem 5rem;
+  margin-top: 75px;
 }
 .articles-heading {
   color: #f7df1e;

@@ -46,7 +46,15 @@ function App() {
           }
         />
         <Route path="/projects/:id" element={<ProjectDetail />} />
-        <Route path="/articles" element={<Articles />} />
+        <Route
+          path="/articles"
+          element={
+            <div>
+              <Navbar />
+              <Articles />
+            </div>
+          }
+        />
       </Routes>
     </BrowserRouter>
   );
