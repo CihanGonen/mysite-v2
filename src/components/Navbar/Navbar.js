@@ -5,7 +5,9 @@ export default function Navbar() {
   return (
     <div className="navbar">
       <div className="navbar-left">
-        <h2>Cihan Gönen</h2>
+        <Link to="/">
+          <h2>Cihan Gönen</h2>
+        </Link>
       </div>
       <div className="navbar-right">
         <a
